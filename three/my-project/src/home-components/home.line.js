@@ -26,7 +26,7 @@ const LineList = () => {
   return (
 <div>
         <div
-            className="relative h-screen w-full bg-center"
+            className="relative h-[1215px] w-full bg-center"
             style={{ backgroundImage: `url(${two})`, backgroundSize: 'cover', backgroundPosition: 'center', }}
         >
         </div>
@@ -34,7 +34,7 @@ const LineList = () => {
          {visibleLines.map((line, index) => (
            <div
              key={index}
-             className=" p-10 text-8xl text-black transition-opacity duration-150 ease in drop-shadow-lg"
+             className=" p-10 text-8xl text-black transition-opacity duration-150 ease in drop-shadow-lg font-custom"
            >
              {line}
            </div>

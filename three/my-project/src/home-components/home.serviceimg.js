@@ -28,13 +28,13 @@ const imageData = [
 const ImageGallery = () => {
   return (
     <div className=" p-20">
-      <div className="grid grid-cols-1 md:grid-cols-3 gap-16 h-64">
+      <div className="grid grid-cols-1 md:grid-cols-3 gap-16 h-64 ">
         {imageData.map((image, index) => (
           <div key={index} className="flex flex-col  ">
             <img
                 src={image.src}
                 alt={image.alt}
-                className=' '
+                className='rounded-lg'
             />
             <p className="mt-8 text-3xl font-semibold text-slate-700">{image.title}</p>
             <p className="mt-8 text-2xl text-slate-700">{image.description}</p>

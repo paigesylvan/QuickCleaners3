@@ -13,7 +13,7 @@ const Header = () => {
                
                <Link to='/'> <img className=' max-w-[3000px] max-h-24 ml-4 mt-3 ' src={Logo} alt='Quick Cleaners'/></Link> 
 
-                <div className='flex space-x-20 py-10 hidden lg:block md:block' >
+                <div className='flex space-x-20 py-10 hidden lg:block md:block font-custom' >
                    
                     <Link className="" to="/services"> Our Services</Link>
                     <Link className="" to="/customers" > Our Customers</Link>

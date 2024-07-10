@@ -19,8 +19,8 @@ return(
                 <Middle/>
          </div>
 
-         <div className='mt-[28%]'>
-            <Family/>
+         <div className='mb-[28%]'>
+                <Family/>
          </div>
     </div>
 
