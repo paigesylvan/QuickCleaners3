@@ -6,7 +6,7 @@ const Footer = () => {
         <div className='bg-slate-500 white flex justify-between  absolute w-full font-custom '>
     
             <div className=' text-white text-3xl leading-relaxed p-20 ml-[440px]'>
-                <p>Locatioin</p>
+                <p>Location</p>
                 <div className='text-xl'>
                     <p>2177 D Silvernail Road</p>
                     <p>Pewaukee, Wisconsin</p>
